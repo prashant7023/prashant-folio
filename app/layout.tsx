@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     title: "Prashant Singh — Frontend Software Engineer",
     description:
       "Frontend Engineer at Bluechip Technologies, passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
-    url: "https://www.adeolabadero.me",
+    url: "https://www.prashant.me",
     siteName: "www.prashantsh.me",
     images: [
       {

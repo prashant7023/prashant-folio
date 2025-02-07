@@ -18,7 +18,7 @@ export default function Works() {
       liveLink: "https://thrifty.buzz/",
       about:
         "Developed a specialized marketplace platform for university students. Inspired by the release of the OpenAI GPT Store, I integrated a bot to generate personalized user profiles. Implemented responsive components using Acertinity UI.",
-      stack: ["next.js", "typescript", "Node.js", "Firebase", "framer motion", "tailwindcss"],
+      stack: ["next.js", "typescript", "Node.js", "Firebase","Gemini-API", "framer motion", "tailwindcss"],
       img: "/thrifty.png",
     },
     {
@@ -27,7 +27,7 @@ export default function Works() {
       liveLink: "https://payment-donation-app.vercel.app/",
       about:
         "he Payment Donation App is a platform that simplifies making and receiving donations. It offers secure payment integration, an easy-to-use interface, and real-time donation tracking. With support for multiple payment methods, users can contribute to various causes quickly and safely.",
-      stack: ["React", "javascript", "Firebase", "tailwindcss"],
+      stack: ["React", "javascript", "Firebase", "tailwinds","Razorpay"],
       img: "/payment.png",
     },
     {

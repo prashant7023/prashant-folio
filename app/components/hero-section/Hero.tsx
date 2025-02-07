@@ -74,7 +74,7 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.1, ease: "easeOut" }}
         >
-          <p className="text-white/60 text-xl smm:text-2xl mb-3 smm:mb-0 lg:text-3xl col-span-6">
+          <p className="text-white/60 text-lg smm:text-xl lg:text-2xl mb-3 smm:mb-0  col-span-6">
             Hey, there
           </p>
           <motion.div
@@ -114,7 +114,7 @@ export default function Hero() {
         <motion.p
           initial={{ opacity: 0 }}
           animate={animateIn2}
-          className="CV p-4 bg-[#3C84C7] w-fit rounded-full text-white/80 text-base lg:text-xl mt-4  smm:mt-6"
+          className="CV p-3 lg:p-4 std-backdrop-blur bg-gradient-to-r  from-[#65a3ba] via-[#5BA2E0] to-[#3C84C7] w-fit rounded-full text-white/80 text-base lg:text-xl mt-4  smm:mt-6"
         >
           <Link target="_blank" className="inline-block w-full text-center" href="https://drive.google.com/file/d/1PQ9TFhWYzi-X1hCHh80qADM0lRfeUtaC/view">
             Download CV
