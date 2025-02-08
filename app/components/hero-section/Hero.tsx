@@ -116,7 +116,7 @@ export default function Hero() {
           animate={animateIn2}
           className="CV p-3 lg:p-4 std-backdrop-blur bg-gradient-to-r  from-[#65a3ba] via-[#5BA2E0] to-[#3C84C7] w-fit rounded-full text-white/80 text-base lg:text-xl mt-4  smm:mt-6"
         >
-          <Link target="_blank" className="inline-block w-full text-center" href="https://drive.google.com/file/d/1PQ9TFhWYzi-X1hCHh80qADM0lRfeUtaC/view">
+        <Link target="_blank" className="inline-block w-full text-center cursor-pointer " href="https://drive.google.com/file/d/1PQ9TFhWYzi-X1hCHh80qADM0lRfeUtaC/view">
             Download CV
           </Link>
         </motion.p>
