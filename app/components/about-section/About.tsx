@@ -38,7 +38,7 @@ export default function About() {
         <div className="grid grid-cols-1 antialiased gap-6 text-white/80 text-xl md:text-2xl">
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
             My passion lies in creating strong business solutions that aid
-            business growth. Whether it's a website to boost brand
+            business growth. Whether it&apos;s a website to boost brand
             publicity or software solutions that streamline otherwise manual
             processes. From writing my first lines of code back in late 2023 to this point
             I have continually refined my development skills overtime.
@@ -60,8 +60,8 @@ export default function About() {
           </AnimatedBody>
           <AnimatedBody className="inline leading-[34px] md:leading-[39px]">
             Each challenge is unique so I ensure that I learn and grow through
-            each one, Wanna learn
-            more? Here's <br className="hidden md:block" />
+            each one. Wanna learn
+            more? Here&apos;s <br className="hidden md:block" />
             <Link
               className="underline text-blue-600"
               href={
