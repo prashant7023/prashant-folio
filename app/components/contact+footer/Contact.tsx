@@ -40,11 +40,17 @@ export default function Contact() {
   const { formState, register, handleSubmit, reset } = useForm();
   const { errors } = formState;
 
+  console.log("Service ID:", process.env.NEXT_PUBLIC_SERVICE_ID);
+console.log("Template ID:", process.env.NEXT_PUBLIC_TEMPLATE_ID);
+console.log("Public Key:", process.env.NEXT_PUBLIC_PUBLIC_KEY);
+
+
   // For email.js
   const formRef = useRef<HTMLFormElement>(null);
 
   function onSubmit(data: any) {
     console.log(data);
+    
 
     emailjs
       .sendForm(

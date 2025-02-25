@@ -15,6 +15,10 @@ export default function About() {
     threshold: 0.2,
     rootMargin: "-100px 0px",
   });
+  const AnimatedBody: React.FC<{ children: React.ReactNode; className?: string }> = ({ children, className }) => {
+    return <div className={className}>{children}</div>; // Use <div> instead of <p>
+  };
+
 
   useEffect(() => {
     if (inView) setSectionInView("about");
@@ -34,21 +38,30 @@ export default function About() {
         <div className="grid grid-cols-1 antialiased gap-6 text-white/80 text-xl md:text-2xl">
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
             My passion lies in creating strong business solutions that aid
-            business growth. Whether it&apos;s a website to boost brand
+            business growth. Whether it's a website to boost brand
             publicity or software solutions that streamline otherwise manual
-            processes.
+            processes. From writing my first lines of code back in late 2023 to this point
+            I have continually refined my development skills overtime.
           </AnimatedBody>
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            From writing my first lines of code back in late 2023 to this point
-            I have continually refined my development skills overtime picking up
-            UI/UX design on the way & solving complex challenges increasing the
-            complexity as time goes by to ensure improvement.
+          Apart from development, I am deeply passionate about competitive programming.
+          Here are my some profile:
+            <div className="mt-3 space-y-2 text-blue-500">
+              <div>
+                🔹 <Link href="https://leetcode.com/u/prashant7023/" className="underline" target="_blank">LeetCode</Link> (Problem Solving & DSA)
+              </div>
+              <div>
+                🔹 <Link href="https://www.codechef.com/users/prashantsh7023" className="underline" target="_blank" >CodeChef</Link> (Rated Competitive Programmer)
+              </div>
+              <div>
+                🔹 <Link href="https://codeforces.com/profile/prashant7023" className="underline" target="_blank" >Codeforces</Link> (Algorithmic Challenges)
+              </div>
+            </div>
           </AnimatedBody>
           <AnimatedBody className="inline leading-[34px] md:leading-[39px]">
             Each challenge is unique so I ensure that I learn and grow through
-            each one ensuring that I not only put in my best but also deliver
-            solutions that businesses are proud to call their own. Wanna learn
-            more? Here&apos;s <br className="hidden md:block" />
+            each one, Wanna learn
+            more? Here's <br className="hidden md:block" />
             <Link
               className="underline text-blue-600"
               href={
@@ -71,7 +84,7 @@ export default function About() {
               WebDevelopment
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              JavaScript(ES6+), React, Next.js, TypeScript, Node.js, Express.js,
+              JavaScript, React.js, Next.js, TypeScript, Node.js, Express.js,
               Firebase, MongoDB, HTML5, Git/GitHub, CSS3, Tailwind CSS, Framer
               Motion, Bootstrap, ReCharts.
             </AnimatedBody>
