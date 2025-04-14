@@ -80,7 +80,7 @@ export default function MobileMenu({
           <Link
             className="p-4 flex justify-center w-full rounded-xl h-fit text-2xl bg-gradient-to-r from-[#d9d9d915] to-[#7373731f] std-backdrop-blur"
             target="_blank"
-            href="https://drive.google.com/file/d/1PQ9TFhWYzi-X1hCHh80qADM0lRfeUtaC/view"
+            href="https://drive.google.com/file/d/1Po08783GPtKlS7djsyvHKCxxMqZsgc5y/view?usp=sharing"
             data-blobity-radius="10"
           >
             <Icon icon="akar-icons:receipt" />

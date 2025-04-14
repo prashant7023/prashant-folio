@@ -65,7 +65,7 @@ export default function Header() {
             <Link target="_blank" href="https://x.com/prashantsh7023">
               <Icon icon="akar-icons:x-fill" />
             </Link>
-            <Link target="_blank" href="https://drive.google.com/file/d/1PQ9TFhWYzi-X1hCHh80qADM0lRfeUtaC/view">
+            <Link target="_blank" href="https://drive.google.com/file/d/1Po08783GPtKlS7djsyvHKCxxMqZsgc5y/view?usp=sharing">
               <Icon icon="akar-icons:receipt" />
             </Link>
           </div>
