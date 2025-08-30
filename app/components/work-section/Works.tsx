@@ -13,12 +13,32 @@ export default function Works() {
 
   const works = [
     {
+      title: "TwinBot: AI Powered Assistant",
+      gitLink: "https://github.com/prashant7023/twin-bot",
+      liveLink: "https://github.com/prashant7023/twin-bot",
+      about:
+        "Developed a digital twin AI system to automate productivity tasks and optimize workflows, utilizing Ollama LLM for advanced AI and NLP capabilities and Incorporated Langchain for developing and fine-tuning models.",
+
+      stack: ["next.js", "typescript", "Node.js", "Llama-3","Langchain", "Finetuning", "PostgreSQL"],
+      img: "/twinbot.png",
+    },
+    {
+      title: "Medihut: Pharmacy Quick Commerce",
+      // gitLink: "https://github.com/prashant7023/medihut",
+      liveLink: "https://medihut.in",
+      about:
+        "Developed a Quick Commerce platform for pharmacies.  Built responsive UI & backend APIs.",
+
+      stack: ["React.JS", "typescript", "Node.js", "Sockets","React Native", "PostgreSQL", "Razorpay", "AWS"],
+      img: "/medihut.png",
+    },
+    {
       title: "Thrifty",
       // gitLink: "https://github.com/adex-hub/url-shortening-api-landing",
       liveLink: "https://thrifty.buzz/",
       about:
         "Developed a specialized marketplace platform for university students. Inspired by the release of the OpenAI GPT Store, I integrated a bot to generate personalized user profiles. Implemented responsive components using Acertinity UI.",
-      stack: ["next.js", "typescript", "Node.js", "Firebase","Gemini-API", "framer motion", "tailwindcss"],
+      stack: ["next.js", "typescript", "Firebase","Gemini-API", "framer motion", "tailwindcss"],
       img: "/thrifty.png",
     },
     {

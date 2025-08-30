@@ -65,7 +65,7 @@ export default function About() {
             <Link
               className="underline text-blue-600"
               href={
-                "https://drive.google.com/file/d/1Po08783GPtKlS7djsyvHKCxxMqZsgc5y/view?usp=sharing"
+                "https://drive.google.com/file/d/1sbpl00i7NAtSdmmbiZkFC2CQFvhLL1gN/view?usp=sharing"
               }
             >
               my Résumè
@@ -81,12 +81,11 @@ export default function About() {
               charSpace={"mr-[0.001em]"}
               className="font-bold antialiased text-xl md:text-2xl mb-2"
             >
-              WebDevelopment
+              Full Stack Development
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              JavaScript, React.js, Next.js, TypeScript, Node.js, Express.js,
-              Firebase, MongoDB, HTML5, Git/GitHub, CSS3, Tailwind CSS, Framer
-              Motion, Bootstrap, ReCharts.
+              JavaScript, React.js, Next.js, TypeScript, Node.js, Express.js, Flask,
+              Firebase, MongoDB, HTML5, Git/GitHub, AWS, Jenkins, SQL, PostgreSQL, Linux, GCP, Langchain, Tensorflow.
             </AnimatedBody>
           </div>
           <div>
@@ -98,7 +97,7 @@ export default function About() {
               Programming Languages
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              C++, JavaScript, Python, C language.
+              C++, JavaScript, Python, Java, Go Lang, C.
             </AnimatedBody>
           </div>
           <div>

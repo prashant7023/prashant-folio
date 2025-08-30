@@ -8,11 +8,6 @@ import { useEffect } from "react";
 const syne = Syne({ subsets: ["latin"] });
 
 function NotFound() {
-  // const { setSectionInView } = useView();
-
-  // useEffect(() => {
-  //   setSectionInView("");
-  // });
 
   return (
     <main className="text-center space-y-6">

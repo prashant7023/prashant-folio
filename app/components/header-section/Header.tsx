@@ -15,13 +15,7 @@ export default function Header() {
     <>
       <div className="fixed max-w-[90%] xl:max-w-[1023px] w-full z-10 select-none">
         <div className="flex justify-between items-center px-6 py-4 rounded-2xl bg-gradient-to-r from-[#d9d9d91f] to-[#7373731f] mt-4 sm:mt-8 std-backdrop-blur">
-          {/* <Image
-            src="/coding.png"
-            width={32}
-            height={36}
-            alt="logo"
-            className="select-none"
-          /> */}
+
           <div>Console</div>
           <Icon
             onClick={() => setMenuOpen(!menuOpen)}
@@ -75,6 +69,10 @@ export default function Header() {
       <AnimatePresence>
         {menuOpen && <MobileMenu onMenuOpen={setMenuOpen} />}
       </AnimatePresence>
+{/* 
+      <AnimatePresence>
+        {menuOpen && <MobileMenu onMenuOpen={setMenuOpen} />}
+      </AnimatePresence> */}
     </>
   );
 }
